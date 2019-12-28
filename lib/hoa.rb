@@ -19,6 +19,6 @@ def add_character(show, name)
   #return BASE_HOA[:jetsons]
   
   BASE_HOA[show] << name 
-  return BASE_HOA[:chipmunks]
+  return BASE_HOA[show]
   
 end
